@@ -147,7 +147,9 @@ STATICFILES_DIRS = [
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 #django-cities-light
+#controls the data universe that can go to myapp
 CITIES_LIGHT_TRANSLATION_LANGUAGES = ['en']
+#CITIES_LIGHT_INCLUDE_COUNTRIES = ['CA','US']
 CITIES_LIGHT_INCLUDE_COUNTRIES = ['CA']
 CITIES_LIGHT_INCLUDE_CITY_TYPES = ['PPL']
 CITIES_LIGHT_APP_NAME='myapp'
